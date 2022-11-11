@@ -73,7 +73,7 @@ public class LinearSearch {
      *
      * @param list     Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
-     * @return Optional of searched element (int) index
+     * @return Optional of searched element index (int)
      * @since 1.0-SNAPSHOT
      */
     public static <T> Optional<Integer> searchForOptionalIndex(Iterator<T> list, T searched) {
