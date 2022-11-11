@@ -3,6 +3,9 @@ package org.collectionofalgorithms;
 import java.util.Iterator;
 import java.util.Optional;
 
+/**
+ * @author Marius Wörfel
+ */
 public class LinearSearch {
 
     /**
