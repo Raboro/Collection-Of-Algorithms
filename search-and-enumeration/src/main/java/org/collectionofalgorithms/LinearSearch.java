@@ -15,14 +15,14 @@ public class LinearSearch {
     /**
      * Searched element must be same Datatype as Iterator holds
      *
-     * @param list     Insert any class, which implements Iterator as Iterator
+     * @param iterator Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
      * @return searched element or null
      * @since 1.0-SNAPSHOT
      */
-    public static <T> T searchForElement(Iterator<T> list, T searched) {
-        while (list.hasNext()) {
-            T element = list.next();
+    public static <T> T searchForElement(Iterator<T> iterator, T searched) {
+        while (iterator.hasNext()) {
+            T element = iterator.next();
             if (element.equals(searched)) {
                 return element;
             }
@@ -33,14 +33,14 @@ public class LinearSearch {
     /**
      * Searched element must be same Datatype as Iterator holds
      *
-     * @param list     Insert any class, which implements Iterator as Iterator
+     * @param iterator     Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
      * @return Optional of searched element
      * @since 1.0-SNAPSHOT
      */
-    public static <T> Optional<T> searchForOptional(Iterator<T> list, T searched) {
-        while (list.hasNext()) {
-            T element = list.next();
+    public static <T> Optional<T> searchForOptional(Iterator<T> iterator, T searched) {
+        while (iterator.hasNext()) {
+            T element = iterator.next();
             if (element.equals(searched)) {
                 return Optional.of(element);
             }
@@ -51,15 +51,15 @@ public class LinearSearch {
     /**
      * Searched element must be same Datatype as Iterator holds
      *
-     * @param list     Insert any class, which implements Iterator as Iterator
+     * @param iterator     Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
      * @return searched element index (int) or Zero
      * @since 1.0-SNAPSHOT
      */
-    public static <T> int searchForElementIndex(Iterator<T> list, T searched) {
+    public static <T> int searchForElementIndex(Iterator<T> iterator, T searched) {
         int index = 0;
-        while (list.hasNext()) {
-            T element = list.next();
+        while (iterator.hasNext()) {
+            T element = iterator.next();
             if (element.equals(searched)) {
                 return index;
             }
@@ -71,15 +71,15 @@ public class LinearSearch {
     /**
      * Searched element must be same Datatype as Iterator holds
      *
-     * @param list     Insert any class, which implements Iterator as Iterator
+     * @param iterator     Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
      * @return Optional of searched element index (int)
      * @since 1.0-SNAPSHOT
      */
-    public static <T> Optional<Integer> searchForOptionalIndex(Iterator<T> list, T searched) {
+    public static <T> Optional<Integer> searchForOptionalIndex(Iterator<T> iterator, T searched) {
         int index = 0;
-        while (list.hasNext()) {
-            T element = list.next();
+        while (iterator.hasNext()) {
+            T element = iterator.next();
             if (element.equals(searched)) {
                 return Optional.of(index);
             }
