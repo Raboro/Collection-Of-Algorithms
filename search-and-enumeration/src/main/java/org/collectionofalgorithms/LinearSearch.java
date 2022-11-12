@@ -33,7 +33,7 @@ public class LinearSearch {
     /**
      * Searched element must be same Datatype as Iterator holds
      *
-     * @param iterator     Insert any class, which implements Iterator as Iterator
+     * @param iterator Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
      * @return Optional of searched element
      * @since 1.0-SNAPSHOT
@@ -51,7 +51,7 @@ public class LinearSearch {
     /**
      * Searched element must be same Datatype as Iterator holds
      *
-     * @param iterator     Insert any class, which implements Iterator as Iterator
+     * @param iterator Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
      * @return searched element index (int) or Zero
      * @since 1.0-SNAPSHOT
@@ -71,7 +71,7 @@ public class LinearSearch {
     /**
      * Searched element must be same Datatype as Iterator holds
      *
-     * @param iterator     Insert any class, which implements Iterator as Iterator
+     * @param iterator Insert any class, which implements Iterator as Iterator
      * @param searched Insert element to be searched for
      * @return Optional of searched element index (int)
      * @since 1.0-SNAPSHOT
