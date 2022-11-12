@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Optional;
 
 /**
- * <p>Class, which uses LinearSearch to collect the element or the index of the element to be searched for</p>
+ * <p>Class, which uses Linear Search to collect the element or the index of the element to be searched for</p>
  * <p>Implements normal return of element or index as int or Optional</p>
  *
  * @author Marius Wörfel
