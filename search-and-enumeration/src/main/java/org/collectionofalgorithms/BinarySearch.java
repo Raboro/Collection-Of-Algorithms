@@ -5,6 +5,14 @@ import java.util.Optional;
 
 public class BinarySearch {
 
+    /**
+     * Searched element must be same Datatype as list holds
+     *
+     * @param list     Insert any class which extends abstract class Number
+     * @param searched Insert element to be searched for
+     * @return searched element or null
+     * @since 1.0-SNAPSHOT
+     */
     public static <T extends Number> T searchForElement(List<T> list, T searched) {
         if (list.size() == 1 && !list.get(0).equals(searched)) {
             return null;
@@ -22,6 +30,14 @@ public class BinarySearch {
         return searchForElement(list.subList(0, list.size() / 2), searched);
     }
 
+    /**
+     * Searched element must be same Datatype as list holds
+     *
+     * @param list     Insert any class which extends abstract class Number
+     * @param searched Insert element to be searched for
+     * @return Optional of searched element
+     * @since 1.0-SNAPSHOT
+     */
     public static <T extends Number> Optional<T> searchForOptional(List<T> list, T searched) {
         if (list.size() == 1 && !list.get(0).equals(searched)) {
             return Optional.empty();
