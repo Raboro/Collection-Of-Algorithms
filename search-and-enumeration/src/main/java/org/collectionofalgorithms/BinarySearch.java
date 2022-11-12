@@ -3,6 +3,13 @@ package org.collectionofalgorithms;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * <p>Class, which uses BinarySearch to collect the element of the element to be searched for</p>
+ * <p>Implements normal return of element or Optional</p>
+ *
+ * @author Marius Wörfel
+ * @since 1.0-SNAPSHOT
+ */
 public class BinarySearch {
 
     /**
